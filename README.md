@@ -33,14 +33,12 @@ If you paste the generated figures into Teams or Slack and add a brief comment o
 ---
  
 ## `%number_kpi()` macro <a name="numberkpi-macro-1"></a> ######
-
-Macro: number_kpi
-
-Purpose:
-  Draw a basic horizontal bullet KPI chart using PROC GKPI (HBULLET).
-  Intended for count/number-type indicators.
-
-Parameters:
+### Purpose:  
+  Draw a basic horizontal bullet KPI chart using PROC GKPI (HBULLET).  
+  Intended for count/number-type indicators.  
+  
+Parameters:  
+~~~text
   actual   = Numeric value representing the current performance.
              Default: 96
   bounds   = Space-delimited numeric breakpoints for the bullet ranges.
@@ -51,11 +49,13 @@ Parameters:
              Default: blank
   label    = Text label displayed on the KPI chart.
              Default: Number of xxxxxx
+~~~
 
-Usage Example:
+### Usage Example:
+~~~sas
   %number_kpi(actual=82, bounds=0 50 100 150 200 250, target=150,
               label=Number of completed Main programs);
-
+~~~
   
 ---
 
