@@ -20,13 +20,13 @@ In such cases, you can use this package to draw the following:
 %proportion_kpi(actual = 0.22,bounds = 0 0.25 0.5 0.75 1,target= 0.5 ,label = Proportion of Compare match)
 ~~~
 
-<img width="190" height="96" alt="image" src="https://github.com/user-attachments/assets/f3c4778d-2ce0-4836-9054-404b026f7b2e" />  
-
-<img width="198" height="98" alt="image" src="https://github.com/user-attachments/assets/1017d883-d95d-4f92-92f0-6a90921f7f56" />  
-
-<img width="194" height="98" alt="image" src="https://github.com/user-attachments/assets/2d879d9f-1018-4dc5-84b5-5df41b359582" />
-
-<img width="187" height="184" alt="image" src="https://github.com/user-attachments/assets/6fc3938b-69da-4dcd-ad17-c7afb5b99b16" />  
+<img width="380" height="192" alt="image" src="https://github.com/user-attachments/assets/f3c4778d-2ce0-4836-9054-404b026f7b2e" />  
+  
+<img width="396" height="196" alt="image" src="https://github.com/user-attachments/assets/1017d883-d95d-4f92-92f0-6a90921f7f56" />  
+  
+<img width="398" height="196" alt="image" src="https://github.com/user-attachments/assets/2d879d9f-1018-4dc5-84b5-5df41b359582" />  
+  
+<img width="394" height="368" alt="image" src="https://github.com/user-attachments/assets/6fc3938b-69da-4dcd-ad17-c7afb5b99b16" />  
 
 
 
