@@ -56,6 +56,8 @@ Parameters:
   %number_kpi(actual=82, bounds=0 50 100 150 200 250, target=150,
               label=Number of completed Main programs);
 ~~~
-  
+
+<img width="396" height="196" alt="image" src="https://github.com/user-attachments/assets/1017d883-d95d-4f92-92f0-6a90921f7f56" />  
+
 ---
 
