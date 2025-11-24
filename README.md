@@ -28,5 +28,34 @@ In such cases, you can use this package to draw the following:
   
 <img width="394" height="368" alt="image" src="https://github.com/user-attachments/assets/6fc3938b-69da-4dcd-ad17-c7afb5b99b16" />  
 
+If you paste the generated figures into Teams or Slack and add a brief comment on your interpretation, that alone should greatly improve shared understanding and team awareness of the overall status.
 
+---
+ 
+## `%number_kpi()` macro <a name="numberkpi-macro-1"></a> ######
+
+Macro: number_kpi
+
+Purpose:
+  Draw a basic horizontal bullet KPI chart using PROC GKPI (HBULLET).
+  Intended for count/number-type indicators.
+
+Parameters:
+  actual   = Numeric value representing the current performance.
+             Default: 96
+  bounds   = Space-delimited numeric breakpoints for the bullet ranges.
+             Values must be in ascending order.
+             Default: 0 50 100 150 200
+  target   = (Optional) Numeric target value to display as a marker.
+             If blank, the TARGET option is not applied.
+             Default: blank
+  label    = Text label displayed on the KPI chart.
+             Default: Number of xxxxxx
+
+Usage Example:
+  %number_kpi(actual=82, bounds=0 50 100 150 200 250, target=150,
+              label=Number of completed Main programs);
+
+  
+---
 
